@@ -1,0 +1,28 @@
+HTML{
+  width: 1440px;
+}
+
+.head .wrapper {
+  overflow: hidden;
+}
+
+.head .sliding-background {
+  background: url("Galaxy.jpg") repeat-x;
+  background-position: center;
+  background: cover;
+  height: 680px;
+  width: 3000px;
+  animation: slide 50s linear infinite;
+}
+
+@keyframes slide{
+    from { background-position: 0 0; }
+    to { background-position: -5000px 0; }
+  }
+}
+
+.mid {
+  background-color: blue;
+  height: 450px;
+  width: 1440px;
+}

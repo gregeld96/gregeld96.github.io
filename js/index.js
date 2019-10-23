@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("button").on('click', function() {
+  $("#hide").on('click', function() {
    if ($(this).text() =='Read Less'){
    	$(this).text('Read More');
    }

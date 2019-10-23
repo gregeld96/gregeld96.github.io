@@ -44,7 +44,9 @@
 		</div>
 	</div>
 
-<div class="content">	
+<div class="content">
+	<div class="row">
+	<div class="col">
 	<div class="aboutus" id="thelight">
 		<div class="carousel slide rounded float-left" id="carousel-pic" data-ride="carousel">
 			<div class="carousel-inner">
@@ -56,7 +58,9 @@
 			    </div>
 			</div>
 		</div>
-
+	</div>
+	</div>
+	<div class="col">
 			<p class="text-center title" id="title">who we are ?</p>
 			<p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. <span class="motto"> Ut enim ad minim veniam </span>
@@ -65,6 +69,8 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	</div>
+	</div>
+
 
 	<div class="activity" id="project">
 		<div class="backact">
@@ -80,7 +86,7 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			<div class="collapse"  id="detfir">
-			<div class="row">
+			<div class="row justify-content-center">
 			<div class="col">
 				<div class="detail">
 					<img src="images/kopdar.jpeg">
@@ -179,15 +185,64 @@
 
 
 <div class="footer" id="knowus">
+	<div class="row">
+	<div class="col text-center text-light">
+		<h2>Contact Us</h2>
+	</div>
+	</div>
+
+	<div class="row text-center">
+	<div class="col-6">
 	<div class="closing">
-		<p class="desc">Please Follow Us</p>
+		<p class="desc">Connect with us</p>
 		<a href="https://www.youtube.com/channel/UCy_OKu5ZvEVnpZiF190BtBg"><img src="images/youtube.png"></a>
 		<a href="https://www.linkedin.com/company/the-light-indonesia/"><img src="images/linkedin.png"></a>
 		<a href="https://www.instagram.com/thelight.official/"><img src="images/ig.png"></a>
 		<a href="mailto:gregoriuseldwin96@gmail.com? subject=subject text"><img src="images/email.png"></a>
 	</div>
+	</div>
 
-	<div class="copyright">
+	<div class="col-5 text-center pt-3 pb-2 text-light">
+		<p>Inform us</p>
+	<form>
+  		<div class="form-row text-left">
+    	<div class="col">
+    		<label for="fullname">Full Name</label>
+      		<input type="text" class="form-control" id="fullname" placeholder="e.q: John Smith" required>
+    	</div>
+    	<div class="col">
+    		<label for="email">Email</label>
+      		<input type="text" class="form-control" id="email" placeholder="mail@example.com" required>
+    	</div>
+  		</div>
+  		<fieldset class="form-group pt-4 text-left">
+    		<div class="row">
+    		  <legend class="col-form-label col-sm-2 pt-0">Topic</legend>
+    		  <div class="col-lg-10-sm-10 justify-content-left">
+    		    <div class="form-check pl-1">
+    		      <input class="form-check-input" type="radio" name="opt1" id="sponsorship" value="option1" checked>
+    		      <label class="form-check-label" for="opt1"> Sponsorship
+    		      </label>
+    		    </div>
+    		    <div class="form-check pl-1">
+    		      <input class="form-check-input" type="radio" name="opt2" id="training" value="option2">
+    		      <label class="form-check-label" for="opt2">
+    		        School Training
+    		      </label>
+    		    </div>
+    		  </div>
+    		</div>
+ 		</fieldset>
+ 		<div class="form-group text-left">
+    		<label for="subject">Description</label>
+    		<input type="text" class="form-control" id="subject" placeholder="Tell us..." required>
+  		</div>
+  		<input class="btn-primary" type="Submit">
+	</form>
+	</div>
+	</div>
+
+	<div class="copyright text-center pt-3 pb-1">
 		<p>&copy; 2019 The Light Indonesia.</p>
 	</div>
 	

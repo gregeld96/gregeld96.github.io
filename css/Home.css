@@ -65,18 +65,17 @@ html{
 }
 
 .carousel {
-  width: 750px;
+  width: 600px;
   height: 550px;
-  padding: 90px 30px 30px 150px;
+  padding: 90px 0px 0px 80px;
 }
 
-.aboutus #title{
-  margin: 0px 25px;
-  padding: 100px 50px 0px;
+.content #title{
+  margin: 0px auto;
+  padding: 140px 50px 0px;
   font-weight: bold;
   font-size: 35px;
   color: white;
-  -webkit-animation: open 0.4s linear forwards, squeeze 0.6s linear 5.5s forwards;
 }
 
 .title {
@@ -88,9 +87,9 @@ html{
   font-weight: bolder;
 }
 
-.aboutus .desc{
-  margin: 0% 5% 0% 50%;
-  padding-top: 35px;
+.content .desc{
+  margin: 0px 20px 15px 20px;
+  padding-top: 15px;
   color: white;
 }
 
@@ -105,7 +104,13 @@ html{
 .activity img {
   width: 500px;
   height: 320px;
-  padding: 0px 10px;
+  padding: 0px 20px 5px 20px;
+}
+
+.activity .detail img {
+  width: 500px;
+  height: 320px;
+  padding: 0px 0px 5px 0px;
 }
 
 .activity #pre, .activity #main, .activity #final {
@@ -123,7 +128,8 @@ html{
   position: relative;
   border-radius: 4px;
   padding-top: 10px;
-  margin-left: 25px;
+  margin-left: 15px;
+  margin-right: 10px;
 }
 
 .activity .detail:hover img{
@@ -166,7 +172,15 @@ html{
 }
 
 .footer {
-  background: red;
+  background: linear-gradient(to right, rgba(43, 11, 228, 0.4), rgba(8, 10, 112, 0.3));
+}
+
+.footer img {
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+
 }
 
 .line-1{

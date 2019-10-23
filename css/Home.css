@@ -94,7 +94,7 @@ html{
 }
 
 .activity{
-  background: url(../images/melipir.jpeg);
+  background: url(../images/Melipir.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -172,15 +172,19 @@ html{
 }
 
 .footer {
-  background: linear-gradient(to right, rgba(43, 11, 228, 0.4), rgba(8, 10, 112, 0.3));
+  background: linear-gradient(to right, rgba(43, 11, 228, 0.8), rgba(8, 10, 112, 0.4));
 }
 
 .footer img {
-  width: 25px;
-  height: 25px;
+  width: 45px;
+  height: 45px;
   margin-left: 20px;
   margin-bottom: 15px;
 
+}
+
+.footer .title {
+  font-size: 16px;
 }
 
 .line-1{

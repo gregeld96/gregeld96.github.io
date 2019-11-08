@@ -4,6 +4,7 @@
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#FFE9D2",
+    "theme_color": "FFE9D2",
     "orientation": "portrait-primary",
     "icon":[
     	{
@@ -45,6 +46,6 @@
     		"src": "/images/icons/logo-512.png",
     		"type": "image/png",
     		"sizes": "512x512"
-    	},
+    	}
     ]
 }
